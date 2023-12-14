@@ -9,7 +9,7 @@ export default class SearchRooms extends Component {
         return <div className='sh-search_rooms'>
             <SearchInfo />
             <Filters />
-            <Rooms component={Room} isLinked={true} title='Smart Rooms' modifier='full'/>
+            <Rooms component={Room} isLinked} title='Smart Rooms' modifier='full'/>
         </div>;
     }
 }

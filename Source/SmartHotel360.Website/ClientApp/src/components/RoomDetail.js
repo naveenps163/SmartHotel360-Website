@@ -255,7 +255,7 @@ class RoomDetail extends Component {
                 <div className='sh-room_detail-extra'>
                     <span className={'sh-room_detail-book btn ' + (this.props.booked || !this.state.canBook ? 'is-disabled' : '')}    
                         onClick={this.onClickBook}>
-                        {this.props.isBooking ? <Loading isBright={true} /> : this.state.bookingText}
+                        {this.props.isBooking ? <Loading isBright} /> : this.state.bookingText}
                     </span>
                 </div>
             </section>

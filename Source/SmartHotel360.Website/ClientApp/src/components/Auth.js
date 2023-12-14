@@ -16,7 +16,7 @@ class Auth extends Component {
     renderLoading() {
         if (this.props.isLoading) {
             return (<li>
-                <Loading isBright={true} />
+                <Loading isBright />
             </li>);
         }
     }

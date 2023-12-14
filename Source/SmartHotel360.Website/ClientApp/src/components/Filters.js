@@ -1,4 +1,4 @@
-﻿import React, { Component } from 'react';
+﻿﻿import React, { Component } from 'react';
 import Filter from './Filter';
 import FilterPrice from './FilterPrice';
 import FilterAvailability from './FilterAvailability';
@@ -19,19 +19,19 @@ export default class Filters extends Component {
                 <Filter title='Price range'>
                     <FilterPrice />
                 </Filter>
-                <Filter title='Reviews' disabled={true}>
+                <Filter title='Reviews' disabled>
                     <FilterReviews />
                 </Filter>
                 <Filter title='Services'>
                     <FilterServices />
                 </Filter>
-                <Filter title='Cancelation' disabled={true}>
+                <Filter title='Cancelation' disabled>
                     <FilterCancelation />
                 </Filter>
-                <Filter title='Neighborhood' right={0} disabled={true}>
+                <Filter title='Neighborhood' right={0} disabled>
                     <FilterNeighborhood />
                 </Filter>
-                <Filter title='Order by relevance' right={0} disabled={true}>
+                <Filter title='Order by relevance' right={0} disabled}>
                     <FilterRelevance />
                 </Filter>
             </div>
