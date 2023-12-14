@@ -112,7 +112,7 @@ class Home extends Component {
                     <img className='sh-smartphone-image' alt="phone" src=' /assets/images/smartphone.png' />
                 </div>
                 <div className='sh-smartphone-quote'>
-                    {this.props.isLoading ? <div className='sh-smartphone-quote_loading'><Loading isBright={true} /></div> : <div className='sh-smartphone-quote_container'>
+                    {this.props.isLoading ? <div className='sh-smartphone-quote_loading'><Loading isBright /></div> : <div className='sh-smartphone-quote_container'>
                         <p className='sh-smartphone-quote_text'>"{this.props.testimonial.text}"</p>
                         <span className='sh-smartphone-quote_name'>
                             <i className='sh-smartphone-quote_icon icon-sh-tweet'></i>

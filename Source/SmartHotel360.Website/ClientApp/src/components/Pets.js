@@ -46,7 +46,7 @@ class Pets extends Component {
                 {this.props.image ? <div className='sh-uploader-image' style={{ backgroundImage: `url(${this.props.image})` }}></div> : <div className='sh-uploader-avatar'></div>}
 
                 <div className='sh-uploader-loading'>
-                    {this.props.isThinking || this.props.isUploading ? <div><Loading isBright={true} /></div> : <div></div>}
+                    {this.props.isThinking || this.props.isUploading ? <div><Loading isBright} /></div> : <div></div>}
                 </div>
             </section>
 
